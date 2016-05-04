@@ -31,7 +31,7 @@ var Munchkin, baseUrl, sts_import; // pre-existing globals
             },
             "google-code-prettify": 'lib/google-code-prettify/src/prettify',
             bootstrap: {
-                location: 'lib/bootstrap/docs/assets/js/bootstrap',
+                location: 'lib/bootstrap/dist/js/bootstrap',
                 config: {
                     loader: 'curl/loader/legacy',
                     requires: [ 'jquery' ],
@@ -39,8 +39,8 @@ var Munchkin, baseUrl, sts_import; // pre-existing globals
                     exports: '$.fn.tooltip'
                 }
             },
-            'bootstrap-datetimepicker': {
-                location: 'lib/bootstrap-datetimepicker/src/js/bootstrap-datetimepicker',
+            'bootstrap-datepicker': {
+                location: 'lib/bootstrap-datetimepicker/dist/js/bootstrap-datepicker',
                 config: {
                     loader: 'curl/loader/legacy',
                     requires: [ 'bootstrap' ],

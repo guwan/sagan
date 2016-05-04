@@ -1,6 +1,6 @@
-var gulpFilter = require('gulp-filter'),
+var gulpFilter = require('gulp-filter'),// 过滤文件
     cram = require('gulp-cram'),
-    uglify = require('gulp-uglify'),
+    uglify = require('gulp-uglify'),//压缩js
     bowerSrc = require('gulp-bower-src'),
     sourcemaps = require('gulp-sourcemaps'),
     cssmin = require('gulp-minify-css'),

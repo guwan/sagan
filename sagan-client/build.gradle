@@ -6,8 +6,8 @@ apply plugin: 'java'
 apply plugin: 'com.moowork.node'
 
 node {
-    version = '0.10.38'
-    npmVersion = '1.4.28'
+    version = '5.9.1'
+    npmVersion = '3.8.6'
     download = true
 }
 
